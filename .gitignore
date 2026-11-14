@@ -1,0 +1,23 @@
+node_modules/
+dist/
+__pycache__/
+*.log
+.env
+# large raw downloads: re-request from FIRMS (pipeline/download_archive.sh, download_api.py)
+data/archive/
+data/raw/
+data/regions/
+data/download.log
+data/fetch.log
+data/api_cache/
+data/boundaries/
+# the world pipeline's working data is large and can be rebuilt; the run's metrics and logs are kept
+data/global/*
+!data/global/model/
+data/global/model/*
+!data/global/model/metrics.json
+!data/global/model/burned_area_check.json
+!data/global/model/stage2.log
+!data/global/model/burned_area.log
+data/cache/
+data/external/
