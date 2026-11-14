@@ -1,3 +1,4 @@
+// Synchronized map tile and calendar state handler
 import { useEffect, useMemo, useState } from 'react'
 import CalendarCard from './components/CalendarCard.jsx'
 import Evidence from './components/Evidence.jsx'
