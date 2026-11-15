@@ -1,0 +1,26 @@
+{
+ "files": 322,
+ "detections_kept": 5282527,
+ "confidence_values": {
+  "H": 4345486,
+  "M": 995776,
+  "L": 740303
+ },
+ "share_outside_record_grid": 0.0009242703521986639,
+ "landsat_fire_cell_months": 179024,
+ "record_has_fire_there": 0.5416201179730092,
+ "record_fire_cell_months": 26931,
+ "landsat_saw_fire_there": 0.7447179829935762,
+ "landsat_saw_fire_where_record_100": 0.804920913884007,
+ "box_month_spearman": 0.597890333279605,
+ "country_month_spearman": {
+  "United States": 0.653376590113549,
+  "Canada south of 50N": 0.7234850911980775
+ },
+ "record_per_landsat": {
+  "2023": 0.6486300230026245,
+  "2024": 0.668605387210846,
+  "2025": 0.9355478882789612,
+  "2026": 0.5230796337127686
+ }
+}
