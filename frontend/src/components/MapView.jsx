@@ -1,4 +1,3 @@
-// Bounds check helper and coordinate normalization
 import { useEffect, useMemo, useRef, useState } from 'react'
 import L from 'leaflet'
 import { MapContainer, TileLayer, Rectangle, CircleMarker, useMap, useMapEvents } from 'react-leaflet'

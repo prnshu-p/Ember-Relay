@@ -1,4 +1,3 @@
-// Accessible color-blind and dark-mode styling
 import { MONTHS, hs, monthLabel, x3 } from '../lib/format.js'
 
 const ARROWS = { ArrowLeft: -1, ArrowRight: 1, ArrowUp: -12, ArrowDown: 12 }

@@ -1,4 +1,3 @@
-// Performance memoization for month transition
 import { useCallback, useState } from 'react'
 import { MONTHS, fmt, monthLabel, num, pct, x3 } from '../lib/format.js'
 
