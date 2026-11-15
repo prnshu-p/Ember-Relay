@@ -1,0 +1,189 @@
+
+================================================================================================================================================================
+ FireCCI51 (primary: reflectance-based area, MODIS hotspots only as seeds); estimated years 2003-2011, VIIRS years 2013-2020; 99.98 % of its burned area lies in the model's cells; rank r over cells with MODIS hotspots 0.86
+
+ LEVEL: hotspots per km2 burned, estimated years against VIIRS years, step in % [95 % interval]
+ unit                               km2/yr  H est H VIIRS   step H           step raw join    step MODIS control H, 4 yrs each side  H / control      no-BA cells
+ World                             4577256   3.65    3.99   -8% [-13,-4]     -77% [-78,-76]   -6% [-11,-2]       -8% [-12,-5]        -2% [-3,-1]               2%
+ BONA                                23839  10.98   11.78   -7% [-26,+15]    -80% [-84,-75]   +3% [-21,+30]      -1% [-21,+25]       -10% [-22,+3]             3%
+ TENA                                33544   9.51   10.93   -13% [-22,-3]    -73% [-75,-69]   -5% [-15,+6]       -17% [-32,-1]       -9% [-13,-3]              6%
+ CEAM                                24668  15.81   18.43   -14% [-26,+0]    -79% [-82,-75]   -13% [-26,+2]      -18% [-29,-2]       -1% [-3,+1]               2%
+ NHSA                                56009   6.00    6.44   -7% [-16,+2]     -79% [-81,-77]   -6% [-15,+3]       -8% [-19,+5]        -1% [-3,+1]               1%
+ SHSA                               259650   8.67    8.03   +8% [-8,+28]     -70% [-75,-65]   +8% [-8,+30]       -7% [-26,+27]       -0% [-2,+1]               2%
+ EURO                                17661   6.54    7.03   -7% [-22,+8]     -71% [-75,-66]   +1% [-13,+16]      -2% [-11,+9]        -8% [-12,-4]             11%
+ MIDE                                14952   8.56    8.53   +0% [-20,+25]    -78% [-82,-74]   -4% [-17,+11]      +1% [-24,+40]       +4% [-4,+14]             33%
+ NHAF                              1492937   2.50    2.72   -8% [-11,-5]     -77% [-77,-76]   -8% [-11,-5]       -6% [-8,-5]         +0% [-1,+1]               1%
+ SHAF                              1679750   2.91    3.20   -9% [-13,-5]     -77% [-78,-76]   -9% [-13,-5]       -5% [-9,-1]         +0% [-0,+1]               0%
+ BOAS                               162520   4.87    6.83   -29% [-43,-13]   -81% [-85,-78]   -19% [-32,-4]      -35% [-49,-18]      -13% [-17,-9]             1%
+ CEAS                               214691   3.40    4.46   -24% [-34,-13]   -77% [-80,-73]   -21% [-32,-10]     -20% [-36,-2]       -3% [-6,-1]               7%
+ SEAS                               153796   9.27    8.43   +10% [-2,+27]    -78% [-80,-74]   +15% [+1,+33]      +10% [-9,+37]       -4% [-7,-2]               7%
+ EQAS                                15053  24.94   23.77   +5% [-8,+25]     -78% [-81,-74]   +13% [-1,+33]      +2% [-13,+17]       -7% [-10,-3]              5%
+ AUST                               426468   2.45    2.84   -14% [-28,+2]    -81% [-84,-78]   -13% [-25,-1]      -3% [-16,+11]       -1% [-6,+4]               1%
+ Democratic Republic of the Cong    430733   3.59    3.99   -10% [-15,-5]    -76% [-78,-75]   -11% [-17,-6]      -4% [-10,+0]        +2% [+0,+3]               1%
+ Brazil                             187148   8.49    7.45   +14% [-8,+44]    -70% [-76,-62]   +15% [-7,+46]      -8% [-27,+39]       -1% [-2,+1]               1%
+ Russian Federation                 222098   4.35    6.05   -28% [-42,-12]   -80% [-83,-76]   -17% [-29,-3]      -31% [-45,-14]      -14% [-19,-9]             1%
+ Australia                          426469   2.44    2.83   -14% [-28,+2]    -81% [-84,-78]   -13% [-25,-1]      -3% [-16,+11]       -1% [-6,+4]               1%
+ Angola                             441300   2.42    2.60   -7% [-11,-3]     -73% [-74,-72]   -8% [-12,-4]       -2% [-5,+1]         +1% [+0,+2]               0%
+ Zambia                             280985   2.54    2.65   -4% [-8,-0]      -74% [-75,-73]   -4% [-7,-0]        +1% [-5,+5]         -0% [-2,+1]               0%
+ Mozambique                         207521   3.11    3.31   -6% [-13,+1]     -80% [-82,-79]   -4% [-10,+1]       -2% [-9,+3]         -2% [-5,+1]               0%
+ Central African Republic           242596   2.30    2.65   -13% [-18,-8]    -76% [-77,-74]   -13% [-17,-8]      -11% [-16,-4]       -0% [-2,+2]               0%
+ South Sudan                        336508   1.68    1.88   -10% [-14,-6]    -74% [-76,-73]   -11% [-15,-7]      -9% [-13,-5]        +1% [-1,+2]               0%
+ Tanzania                           147178   2.75    2.96   -7% [-14,-1]     -80% [-82,-79]   -3% [-9,+1]        -2% [-7,+3]         -4% [-6,-2]               0%
+ United States                       38132  10.14   10.81   -6% [-17,+6]     -72% [-75,-69]   -3% [-12,+6]       -14% [-27,+1]       -4% [-9,+3]               6%
+ India                               48334   8.82    7.80   +13% [-5,+35]    -80% [-83,-75]   +15% [-5,+39]      -10% [-26,+9]       -1% [-5,+2]              10%
+ Nigeria                            100949   3.66    4.06   -10% [-16,-2]    -83% [-84,-81]   -6% [-13,+2]       -5% [-14,+6]        -4% [-6,-1]               0%
+ Myanmar                             27444  13.07   10.45   +25% [+7,+47]    -75% [-78,-70]   +36% [+16,+59]     +34% [+10,+61]      -8% [-10,-6]              7%
+ Indonesia                           11394  28.11   25.30   +11% [-6,+40]    -77% [-80,-70]   +20% [+2,+49]      +4% [-13,+43]       -8% [-12,-3]              4%
+ Madagascar                          44609   6.17    7.87   -22% [-30,-13]   -84% [-86,-83]   -21% [-29,-13]     -10% [-19,-3]       -0% [-1,+1]               1%
+ China                               30359   8.22   14.81   -44% [-56,-31]   -85% [-88,-81]   -45% [-57,-30]     -24% [-41,-4]       +1% [-6,+8]              16%
+ Guinea                              64387   4.27    4.15   +3% [-2,+7]      -72% [-73,-70]   +5% [+1,+9]        -2% [-8,+5]         -2% [-3,-0]               0%
+ Mexico                              13622  16.84   20.12   -16% [-31,+1]    -79% [-82,-74]   -17% [-34,+2]      -31% [-47,-8]       +1% [-2,+5]               3%
+ Bolivia                             34907   6.86    7.44   -8% [-20,+6]     -75% [-79,-71]   -10% [-24,+6]      -3% [-25,+26]       +2% [-5,+8]               3%
+ Argentina                           24678   9.71    7.98   +22% [+1,+45]    -60% [-67,-53]   +27% [+6,+51]      +15% [-4,+38]       -4% [-6,-2]               2%
+ Ethiopia                            85226   2.43    2.69   -9% [-14,-4]     -79% [-80,-77]   -9% [-14,-4]       -5% [-12,+3]        -0% [-2,+1]               0%
+ Canada                              19226  10.04   12.14   -17% [-33,+3]    -82% [-86,-78]   -6% [-27,+18]      -3% [-22,+30]       -12% [-23,-0]             4%
+ Chad                               120907   1.70    1.73   -2% [-5,+1]      -74% [-75,-73]   -0% [-4,+4]        -3% [-8,+2]         -1% [-3,+0]               0%
+ Cameroon                            60608   2.99    3.57   -16% [-23,-9]    -79% [-81,-77]   -13% [-19,-6]      -9% [-16,-2]        -4% [-6,-2]               1%
+ small fires (least km2/hotspot)    268620  22.11   22.09   +0% [-7,+7]      -75% [-77,-73]   +3% [-4,+10]       -6% [-13,+1]        -3% [-5,-1]               6%
+ middle third                      1352134   4.08    4.46   -8% [-11,-6]     -77% [-77,-76]   -6% [-8,-4]        -6% [-8,-5]         -2% [-3,-2]               0%
+ large fires (most km2/hotspot)    2956502   1.86    2.03   -8% [-11,-5]     -77% [-77,-76]   -7% [-10,-4]       -6% [-8,-4]         -1% [-2,-1]               0%
+
+ VARIABILITY (annual hotspots against annual burned area: r / rho) and SEASONALITY (r of the mean monthly cycles, and the lag in months with the best r)
+ unit                               H est yrs  H VIIRS yrs   MODIS est  MODIS VIIRS   |   H est yrs  H VIIRS yrs   MODIS est  MODIS VIIRS
+ World                             0.71 / 0.60   0.01 /-0.12  0.71 / 0.60   0.15 /-0.14   |   0.72 (+0)    0.72 (+0)   0.79 (+0)    0.81 (+0)
+ BONA                              0.95 / 0.90   0.87 / 0.79  0.94 / 0.90   0.86 / 0.93   |   0.97 (+0)    0.96 (+0)   0.98 (+0)    0.96 (+0)
+ TENA                              0.85 / 0.88   0.95 / 0.95  0.89 / 0.90   0.96 / 0.95   |   0.83 (+0)    0.87 (+0)   0.86 (+0)    0.91 (+0)
+ CEAM                              0.96 / 0.88   0.86 / 0.86  0.96 / 0.88   0.83 / 0.76   |   0.99 (+0)    0.98 (+0)   0.99 (+0)    0.98 (+0)
+ NHSA                              0.92 / 0.92   0.92 / 0.90  0.93 / 0.85   0.93 / 0.90   |   0.85 (-1)    0.89 (-1)   0.89 (-1)    0.92 (+0)
+ SHSA                              0.86 / 0.95   0.97 / 0.95  0.84 / 0.87   0.96 / 0.98   |   0.97 (+0)    0.97 (+0)   0.98 (+0)    0.98 (+0)
+ EURO                              0.83 / 0.82   0.88 / 0.93  0.81 / 0.73   0.94 / 0.98   |   0.95 (+0)    0.90 (+0)   0.93 (+0)    0.89 (+0)
+ MIDE                              0.97 / 1.00   0.86 / 0.86  0.96 / 0.98   0.95 / 0.90   |   0.94 (+0)    0.89 (+0)   0.97 (+0)    0.95 (+0)
+ NHAF                              0.87 / 0.88   0.90 / 0.67  0.86 / 0.88   0.90 / 0.67   |   0.95 (+0)    0.93 (+0)   0.97 (+0)    0.96 (+0)
+ SHAF                              0.83 / 0.77   0.43 / 0.43  0.86 / 0.75   0.48 / 0.50   |   0.98 (+0)    0.97 (+0)   1.00 (+0)    0.99 (+0)
+ BOAS                              0.90 / 0.97   0.62 / 0.67  0.92 / 0.97   0.73 / 0.71   |   0.82 (+0)    0.55 (-3)   0.87 (+0)    0.63 (-3)
+ CEAS                              0.81 / 0.77   0.94 / 0.86  0.76 / 0.60   0.93 / 0.81   |   0.78 (+0)    0.68 (+0)   0.69 (+0)    0.66 (+0)
+ SEAS                              0.63 / 0.42   0.26 / 0.12  0.64 / 0.43   0.03 / 0.10   |   0.84 (-1)    0.92 (+0)   0.83 (-1)    0.90 (+0)
+ EQAS                              0.99 / 0.95   0.98 / 0.90  0.99 / 0.95   0.98 / 0.90   |   0.97 (+0)    0.99 (+0)   0.93 (+0)    0.97 (+0)
+ AUST                              0.97 / 0.97   0.66 / 0.74  0.98 / 0.98   0.81 / 0.76   |   0.99 (+0)    0.95 (+0)   0.99 (+0)    0.96 (+0)
+ Democratic Republic of the Cong   0.69 / 0.65   0.10 /-0.10  0.71 / 0.65  -0.09 / 0.05   |   0.95 (+0)    0.93 (+0)   0.98 (+0)    0.96 (+0)
+ Brazil                            0.80 / 0.90   0.96 / 0.88  0.78 / 0.90   0.97 / 0.93   |   0.97 (+0)    0.96 (+0)   0.97 (+0)    0.97 (+0)
+ Russian Federation                0.84 / 0.80   0.54 / 0.57  0.88 / 0.88   0.71 / 0.76   |   0.87 (+0)    0.63 (+0)   0.92 (+0)    0.73 (+0)
+ Australia                         0.97 / 0.97   0.66 / 0.74  0.98 / 0.98   0.81 / 0.76   |   0.99 (+0)    0.95 (+0)   0.99 (+0)    0.96 (+0)
+ Angola                            0.86 / 0.68   0.66 / 0.48  0.86 / 0.68   0.67 / 0.48   |   0.99 (+0)    0.98 (+0)   0.99 (+0)    0.99 (+0)
+ Zambia                            0.74 / 0.68   0.73 / 0.62  0.76 / 0.68   0.83 / 0.79   |   0.99 (+0)    0.99 (+0)   1.00 (+0)    0.99 (+0)
+ Mozambique                        0.91 / 0.90   0.37 / 0.43  0.89 / 0.88   0.75 / 0.67   |   0.95 (+0)    0.95 (+0)   0.98 (+0)    0.98 (+0)
+ Central African Republic          0.93 / 0.88   0.83 / 0.90  0.94 / 0.88   0.86 / 0.83   |   0.99 (+0)    0.97 (+0)   0.99 (+0)    0.98 (+0)
+ South Sudan                       0.92 / 0.80   0.98 / 0.88  0.93 / 0.80   0.98 / 0.90   |   1.00 (+0)    0.99 (+0)   1.00 (+0)    1.00 (+0)
+ Tanzania                          0.97 / 0.98   0.71 / 0.76  0.98 / 0.98   0.84 / 0.76   |   0.86 (-1)    0.84 (-1)   0.95 (+0)    0.93 (+0)
+ United States                     0.67 / 0.77   0.94 / 0.95  0.73 / 0.75   0.97 / 0.98   |   0.81 (+0)    0.89 (+0)   0.90 (+0)    0.93 (+0)
+ India                             0.80 / 0.82   0.85 / 0.81  0.77 / 0.70   0.91 / 0.83   |   0.94 (+0)    0.96 (+0)   0.92 (+0)    0.94 (+0)
+ Nigeria                           0.86 / 0.83   0.79 / 0.86  0.88 / 0.83   0.79 / 0.83   |   0.96 (+0)    0.91 (+0)   0.98 (+0)    0.95 (+0)
+ Myanmar                           0.85 / 0.90   0.20 / 0.02  0.85 / 0.90   0.20 / 0.02   |   0.91 (+0)    0.91 (+0)   0.89 (+0)    0.88 (+0)
+ Indonesia                         1.00 / 0.95   0.97 / 0.90  0.99 / 0.95   0.97 / 0.90   |   0.97 (+0)    0.98 (+0)   0.93 (+0)    0.97 (+0)
+ Madagascar                        0.73 / 0.73   0.81 / 0.55  0.75 / 0.82   0.82 / 0.60   |   0.80 (-1)    0.64 (-2)   0.88 (-1)    0.75 (-1)
+ China                            -0.26 /-0.20   0.89 / 0.90 -0.36 /-0.20   0.85 / 0.90   |   0.44 (+0)    0.77 (+0)   0.34 (+3)    0.77 (+0)
+ Guinea                            0.79 / 0.70   0.65 / 0.50  0.76 / 0.70   0.81 / 0.71   |   0.76 (+0)    0.80 (-1)   0.80 (+0)    0.83 (+0)
+ Mexico                            0.98 / 0.97   0.94 / 0.88  0.98 / 0.98   0.90 / 0.83   |   1.00 (+0)    1.00 (+0)   0.99 (+0)    0.99 (+0)
+ Bolivia                           0.94 / 0.92   0.97 / 0.93  0.96 / 0.92   0.95 / 0.93   |   0.97 (+0)    0.94 (+0)   0.96 (+0)    0.94 (+0)
+ Argentina                         0.97 / 0.93   0.91 / 0.83  0.97 / 0.93   0.91 / 0.81   |   0.95 (+0)    0.74 (+0)   0.95 (+0)    0.74 (+0)
+ Ethiopia                          0.84 / 0.80   0.88 / 0.90  0.85 / 0.75   0.86 / 0.83   |   0.98 (+0)    0.98 (+0)   0.99 (+0)    0.99 (+0)
+ Canada                            0.90 / 0.88   0.87 / 0.90  0.85 / 0.97   0.84 / 0.69   |   0.99 (+0)    0.95 (+0)   0.97 (+0)    0.94 (+0)
+ Chad                              0.97 / 0.93   0.95 / 0.86  0.96 / 0.97   0.93 / 0.86   |   0.97 (+0)    0.96 (+0)   0.98 (+0)    0.98 (+0)
+ Cameroon                          0.74 / 0.83   0.42 / 0.26  0.79 / 0.87   0.51 / 0.33   |   0.92 (+0)    0.82 (-1)   0.95 (+0)    0.87 (+0)
+ small fires (least km2/hotspot)   0.87 / 0.78   0.84 / 0.86  0.87 / 0.78   0.88 / 0.93   |   0.84 (+0)    0.86 (+0)   0.84 (+0)    0.84 (+0)
+ middle third                      0.92 / 0.93   0.62 / 0.52  0.94 / 0.93   0.71 / 0.55   |   0.93 (+0)    0.92 (+0)   0.96 (+0)    0.97 (+0)
+ large fires (most km2/hotspot)    0.92 / 0.95   0.95 / 0.88  0.92 / 0.95   0.95 / 0.86   |   0.97 (+0)    0.97 (+0)   0.99 (+0)    0.99 (+0)
+ 14 regions pooled (r only)        0.88         0.79        0.88         0.81      
+
+ VERDICT
+  - World level. H: -8% [-13,-4], a real but small step (interval excludes zero, inside the tolerance). Raw join: -77% [-78,-76], steps as it must, so the test has power. MODIS control: -6% [-11,-2], a real but small step (interval excludes zero, inside the tolerance). H with the control divided out: -2% [-3,-1] (burned area cancels in this figure; it is not independent evidence).
+  - Level by region (14). H FAILS in 3: TENA -13% [-22,-3]; BOAS -29% [-43,-13]; CEAS -24% [-34,-13]. Real but small step in 2: NHAF, SHAF. The MODIS control FAILS in 4: BOAS -19% [-32,-4]; CEAS -21% [-32,-10]; SEAS +15% [+1,+33]; AUST -13% [-25,-1]. H fails while the control holds (points at the record): TENA. Control fails while H does not (H's pass is no evidence there): SEAS, AUST. H departs from the control by more than the tolerance: BOAS -13% [-17,-9].
+  - Level by country (25). H FAILS in 8: Russian Federation -28% [-42,-12]; Central African Republic -13% [-18,-8]; South Sudan -10% [-14,-6]; Myanmar +25% [+7,+47]; Madagascar -22% [-30,-13]; China -44% [-56,-31]; Argentina +22% [+1,+45]; Cameroon -16% [-23,-9]. Real but small step in 6: Democratic Republic of the Congo, Angola, Zambia, Tanzania, Nigeria, Ethiopia. The MODIS control FAILS in 11: Democratic Republic of the Congo -11% [-17,-6]; Russian Federation -17% [-29,-3]; Australia -13% [-25,-1]; Central African Republic -13% [-17,-8]; South Sudan -11% [-15,-7]; Myanmar +36% [+16,+59]; Indonesia +20% [+2,+49]; Madagascar -21% [-29,-13]; China -45% [-57,-30]; Argentina +27% [+6,+51]; Cameroon -13% [-19,-6]. H fails while the control holds (points at the record): none. Control fails while H does not (H's pass is no evidence there): Democratic Republic of the Congo, Australia, Indonesia. H departs from the control by more than the tolerance: Russian Federation -14% [-19,-9]; Canada -12% [-23,-0].
+  - Level by class (3). H FAILS in 0: none. Real but small step in 2: middle third, large fires (most km2/hotspot). The MODIS control FAILS in 0: none. H fails while the control holds (points at the record): none. Control fails while H does not (H's pass is no evidence there): none. H departs from the control by more than the tolerance: none.
+  - Variability pooled over the 14 regions: r = 0.88 for H in the estimated years and 0.79 in the VIIRS years (MODIS: 0.88 and 0.81). The estimated years do not follow burned area worse than the VIIRS years. Before 2012 H is a function of MODIS and both products are seeded with MODIS hotspots, so a high r there is partly built in.
+  - Variability by region and country (annual totals against burned area, r). Lower before 2012 than after by more than 0.2: United States (H 0.67 vs 0.94; MODIS 0.73 vs 0.97); China (H -0.26 vs 0.89; MODIS -0.36 vs 0.85). H worse than its own MODIS input before 2012 by more than 0.1 (real VIIRS doing the same after 2012 makes this expected): none.
+  - Seasonality by region and country (mean monthly cycle against burned area, r). Lower before 2012 than after by more than 0.1: China (H 0.44 vs 0.77; MODIS 0.34 vs 0.77). H worse than its own MODIS input before 2012 by more than 0.1 (real VIIRS doing the same after 2012 makes this expected): none.
+
+================================================================================================================================================================
+ GFED5 (robustness only: up to half of its area is derived from MODIS hotspots); estimated years 2003-2011, VIIRS years 2013-2020; 99.97 % of its burned area lies in the model's cells; rank r over cells with MODIS hotspots 0.95
+
+ LEVEL: hotspots per km2 burned, estimated years against VIIRS years, step in % [95 % interval]
+ unit                               km2/yr  H est H VIIRS   step H           step raw join    step MODIS control H, 4 yrs each side  H / control      no-BA cells
+ World                             7631291   2.24    2.31   -3% [-7,-0]      -76% [-76,-75]   -1% [-4,+2]        -4% [-7,-0]         -2% [-3,-1]               0%
+ BONA                                40842   6.39    6.98   -8% [-29,+20]    -80% [-85,-73]   +1% [-22,+29]      -14% [-35,+15]      -10% [-22,+3]             0%
+ TENA                                64729   4.75    5.81   -18% [-28,-5]    -74% [-77,-71]   -11% [-18,-1]      -11% [-23,+0]       -9% [-13,-3]              0%
+ CEAM                               126395   3.35    3.26   +3% [-4,+10]     -75% [-77,-73]   +4% [-3,+10]       +3% [-6,+13]        -1% [-3,+1]               0%
+ NHSA                                92965   3.72    3.83   -3% [-10,+5]     -78% [-79,-76]   -2% [-9,+5]        -6% [-15,+3]        -1% [-3,+1]               0%
+ SHSA                               538366   4.05    3.91   +4% [-4,+12]     -72% [-74,-69]   +4% [-4,+12]       +4% [-7,+16]        -0% [-2,+1]               0%
+ EURO                                42453   2.71    2.86   -5% [-12,+3]     -70% [-72,-68]   +3% [-5,+12]       -5% [-11,+4]        -8% [-12,-4]              1%
+ MIDE                                32835   3.90    3.86   +1% [-11,+17]    -78% [-80,-76]   -3% [-10,+5]       +2% [-14,+26]       +4% [-4,+14]             20%
+ NHAF                              2392870   1.60    1.65   -3% [-6,-1]      -75% [-76,-75]   -3% [-6,-1]        -4% [-6,-2]         +0% [-1,+1]               0%
+ SHAF                              2421879   2.10    2.11   -0% [-2,+1]      -75% [-75,-74]   -1% [-2,+1]        +2% [-0,+4]         +0% [-0,+1]               0%
+ BOAS                               310003   2.43    3.80   -36% [-49,-21]   -83% [-86,-80]   -27% [-39,-13]     -36% [-48,-22]      -13% [-17,-9]             0%
+ CEAS                               412885   1.92    1.99   -3% [-9,+4]      -71% [-72,-69]   -0% [-7,+7]        +1% [-7,+11]        -3% [-6,-1]               0%
+ SEAS                               603687   2.25    2.29   -2% [-6,+3]      -80% [-81,-79]   +2% [-2,+8]        -5% [-9,-1]         -4% [-7,-2]               0%
+ EQAS                                39982   8.86    9.72   -9% [-17,+4]     -81% [-82,-78]   -2% [-9,+11]       -13% [-18,-3]       -7% [-10,-3]              0%
+ AUST                               509507   2.06    2.24   -8% [-23,+7]     -80% [-83,-77]   -7% [-19,+4]       +2% [-6,+12]        -1% [-6,+4]               0%
+ small fires (least km2/hotspot)   1192305   4.71    4.84   -3% [-7,+2]      -75% [-76,-74]   +1% [-3,+5]        -5% [-9,+0]         -3% [-5,-1]               1%
+ middle third                      2523246   2.14    2.16   -1% [-2,+1]      -74% [-74,-73]   -1% [-2,+0]        -1% [-2,+1]         -0% [-1,+0]               0%
+ large fires (most km2/hotspot)    3915740   1.56    1.62   -3% [-5,-1]      -77% [-78,-77]   +0% [-1,+2]        -3% [-4,-2]         -4% [-5,-3]               0%
+
+ VERDICT
+  - World level. H: -3% [-7,-0], a real but small step (interval excludes zero, inside the tolerance). Raw join: -76% [-76,-75], steps as it must, so the test has power. MODIS control: -1% [-4,+2], no detectable step. H with the control divided out: -2% [-3,-1] (burned area cancels in this figure; it is not independent evidence).
+  - Level by region (14). H FAILS in 2: TENA -18% [-28,-5]; BOAS -36% [-49,-21]. Real but small step in 1: NHAF. The MODIS control FAILS in 2: TENA -11% [-18,-1]; BOAS -27% [-39,-13]. H fails while the control holds (points at the record): none. Control fails while H does not (H's pass is no evidence there): none. H departs from the control by more than the tolerance: BOAS -13% [-17,-9].
+  - Level by country (25). H FAILS in 2: Russian Federation -34% [-47,-19]; China +31% [+24,+40]. Real but small step in 2: South Sudan, Chad. The MODIS control FAILS in 3: Russian Federation -23% [-34,-11]; Myanmar +12% [+4,+20]; China +30% [+22,+43]. H fails while the control holds (points at the record): none. Control fails while H does not (H's pass is no evidence there): Myanmar. H departs from the control by more than the tolerance: Russian Federation -14% [-19,-9]; Canada -12% [-23,-0].
+  - Level by class (3). H FAILS in 0: none. Real but small step in 1: large fires (most km2/hotspot). The MODIS control FAILS in 0: none. H fails while the control holds (points at the record): none. Control fails while H does not (H's pass is no evidence there): none. H departs from the control by more than the tolerance: none.
+  - Variability pooled over the 14 regions: r = 0.93 for H in the estimated years and 0.87 in the VIIRS years (MODIS: 0.95 and 0.91). The estimated years do not follow burned area worse than the VIIRS years. Before 2012 H is a function of MODIS and both products are seeded with MODIS hotspots, so a high r there is partly built in.
+  - Variability by region and country (annual totals against burned area, r). Lower before 2012 than after by more than 0.2: none. H worse than its own MODIS input before 2012 by more than 0.1 (real VIIRS doing the same after 2012 makes this expected): none.
+  - Seasonality by region and country (mean monthly cycle against burned area, r). Lower before 2012 than after by more than 0.1: none. H worse than its own MODIS input before 2012 by more than 0.1 (real VIIRS doing the same after 2012 makes this expected): TENA (H 0.69 vs MODIS 0.92; after 2012 VIIRS 0.49 vs MODIS 0.73); United States (H 0.57 vs MODIS 0.81; after 2012 VIIRS 0.52 vs MODIS 0.73).
+
+================================================================================================================================================================
+ CROSS-CHECK: step of H in both products (FAIL = beyond 10 % and interval excludes zero; step = interval excludes zero; ok = no detectable step)
+ unit                            FireCCI51               GFED5                   area ratio no-BA cells  yardstick
+ World                           -8% [-13,-4] step       -3% [-7,-0] step              0.60          2%  trusted
+ BONA                            -7% [-26,+15] ok        -8% [-29,+20] ok              0.58          3%  trusted
+ TENA                            -13% [-22,-3] FAIL      -18% [-28,-5] FAIL            0.52          6%  trusted
+ CEAM                            -14% [-26,+0] ok        +3% [-4,+10] ok               0.20          2%  weak
+ NHSA                            -7% [-16,+2] ok         -3% [-10,+5] ok               0.60          1%  trusted
+ SHSA                            +8% [-8,+28] ok         +4% [-4,+12] ok               0.48          2%  weak
+ EURO                            -7% [-22,+8] ok         -5% [-12,+3] ok               0.42         11%  weak
+ MIDE                            +0% [-20,+25] ok        +1% [-11,+17] ok              0.46         33%  weak
+ NHAF                            -8% [-11,-5] step       -3% [-6,-1] step              0.62          1%  trusted
+ SHAF                            -9% [-13,-5] step       -0% [-2,+1] ok                0.69          0%  trusted
+ BOAS                            -29% [-43,-13] FAIL     -36% [-49,-21] FAIL           0.52          1%  trusted
+ CEAS                            -24% [-34,-13] FAIL     -3% [-9,+4] ok                0.52          7%  trusted
+ SEAS                            +10% [-2,+27] ok        -2% [-6,+3] ok                0.25          7%  weak
+ EQAS                            +5% [-8,+25] ok         -9% [-17,+4] ok               0.38          5%  weak
+ AUST                            -14% [-28,+2] ok        -8% [-23,+7] ok               0.84          1%  trusted
+ Democratic Republic of the Cong -10% [-15,-5] step      -2% [-4,+1] ok                0.60          1%  trusted
+ Brazil                          +14% [-8,+44] ok        +5% [-3,+14] ok               0.53          1%  trusted
+ Russian Federation              -28% [-42,-12] FAIL     -34% [-47,-19] FAIL           0.52          1%  trusted
+ Australia                       -14% [-28,+2] ok        -8% [-23,+7] ok               0.84          1%  trusted
+ Angola                          -7% [-11,-3] step       +0% [-2,+2] ok                0.81          0%  trusted
+ Zambia                          -4% [-8,-0] step        -0% [-2,+1] ok                0.75          0%  trusted
+ Mozambique                      -6% [-13,+1] ok         +0% [-3,+3] ok                0.71          0%  trusted
+ Central African Republic        -13% [-18,-8] FAIL      -2% [-8,+4] ok                0.69          0%  trusted
+ South Sudan                     -10% [-14,-6] FAIL      -6% [-10,-2] step             0.85          0%  trusted
+ Tanzania                        -7% [-14,-1] step       -2% [-5,+1] ok                0.72          0%  trusted
+ United States                   -6% [-17,+6] ok         -9% [-20,+6] ok               0.54          6%  trusted
+ India                           +13% [-5,+35] ok        -0% [-4,+3] ok                0.29         10%  weak
+ Nigeria                         -10% [-16,-2] step      -2% [-5,+1] ok                0.49          0%  weak
+ Myanmar                         +25% [+7,+47] FAIL      +3% [-3,+9] ok                0.18          7%  weak
+ Indonesia                       +11% [-6,+40] ok        -11% [-18,+2] ok              0.36          4%  weak
+ Madagascar                      -22% [-30,-13] FAIL     +3% [-0,+6] ok                0.32          1%  weak
+ China                           -44% [-56,-31] FAIL     +31% [+24,+40] FAIL           0.29         16%  weak
+ Guinea                          +3% [-2,+7] ok          -4% [-10,+4] ok               0.40          0%  weak
+ Mexico                          -16% [-31,+1] ok        +4% [-5,+14] ok               0.17          3%  weak
+ Bolivia                         -8% [-20,+6] ok         +0% [-14,+16] ok              0.70          3%  trusted
+ Argentina                       +22% [+1,+45] FAIL      -1% [-12,+12] ok              0.32          2%  weak
+ Ethiopia                        -9% [-14,-4] step       -4% [-9,+2] ok                0.74          0%  trusted
+ Canada                          -17% [-33,+3] ok        -24% [-41,+3] ok              0.55          4%  trusted
+ Chad                            -2% [-5,+1] ok          +4% [+2,+7] step              0.77          0%  trusted
+ Cameroon                        -16% [-23,-9] FAIL      -0% [-4,+4] ok                0.57          1%  trusted
+
+ FINAL VERDICT
+  - Trusted yardstick in 25 of 40 units; weak (small, cropland, deforestation fires or gas flares; ignore their verdicts) in: CEAM, SHSA, EURO, MIDE, SEAS, EQAS, India, Nigeria, Myanmar, Indonesia, Madagascar, China, Guinea, Mexico, Argentina.
+  - Among trusted units H FAILS the level check in both products in: TENA (H -13% [-22,-3] and -18% [-28,-5]; MODIS control -5% [-15,+6] and -11% [-18,-1]; H over control -9% [-13,-3]); BOAS (H -29% [-43,-13] and -36% [-49,-21]; MODIS control -19% [-32,-4] and -27% [-39,-13]; H over control -13% [-17,-9]); Russian Federation (H -28% [-42,-12] and -34% [-47,-19]; MODIS control -17% [-29,-3] and -23% [-34,-11]; H over control -14% [-19,-9]). In FireCCI51 only: CEAS, Central African Republic, South Sudan, Cameroon. In GFED5 only: none. In neither: World, BONA, NHSA, NHAF, SHAF, AUST, Democratic Republic of the Congo, Brazil, Australia, Angola, Zambia, Mozambique, Tanzania, United States, Bolivia, Ethiopia, Canada, Chad.
+  - In the world total, 4.6 % of H lies in cell-months where MODIS saw nothing in the estimated years, against 4.8 % of real VIIRS afterwards (not a burned-area test).
+
+wrote data/global/model/burned_area_check.json
