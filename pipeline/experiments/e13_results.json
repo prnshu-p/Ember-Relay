@@ -1,0 +1,356 @@
+{
+ "healthy_months": [
+  "2023-03",
+  "2023-04",
+  "2023-05",
+  "2023-06",
+  "2023-08",
+  "2023-12",
+  "2024-03",
+  "2024-04",
+  "2024-08",
+  "2024-10",
+  "2024-12",
+  "2025-01",
+  "2025-02",
+  "2025-03",
+  "2025-04",
+  "2025-05",
+  "2025-06",
+  "2025-08",
+  "2025-10",
+  "2025-12",
+  "2026-01",
+  "2026-02",
+  "2026-05",
+  "2026-09",
+  "2026-10"
+ ],
+ "pairs": {
+  "NOAA-20 -> S-NPP": {
+   "country": 0.07584345982381029,
+   "box": 0.10030408757073539,
+   "cell": 0.6328804288135873,
+   "wcountry": 0.029736209521424816,
+   "world": 0.004682621918618679
+  },
+  "NOAA-21 -> S-NPP": {
+   "country": 0.08027736239419178,
+   "box": 0.10047904636761913,
+   "cell": 0.6392700678512903,
+   "wcountry": 0.03135345225383434,
+   "world": 0.006791031453758478
+  },
+  "NOAA-21 -> NOAA-20": {
+   "country": 0.08091084301390342,
+   "box": 0.10573817911954217,
+   "cell": 0.6572807669089821,
+   "wcountry": 0.029771068790595902,
+   "world": 0.00709206098690629
+  },
+  "average of NOAA-20 and NOAA-21 -> S-NPP": {
+   "country": 0.06694138842685896,
+   "box": 0.08527428898267783,
+   "cell": 0.5563659251856667,
+   "wcountry": 0.026712801727654296,
+   "world": 0.005051037762314081
+  }
+ },
+ "record_blind": {
+  "country": 0.17442922354942347,
+  "box": 0.21104942746006133,
+  "cell": 0.738022526480116,
+  "wcountry": 0.10208288658221956,
+  "world": 0.051659874618053436
+ },
+ "three_cornered_hat": {
+  "box_months": 48917,
+  "pair_sd": {
+   "S-NPP / NOAA-20": 0.17893714538466296,
+   "S-NPP / NOAA-21": 0.17755880300961568,
+   "NOAA-20 / NOAA-21": 0.1875692988744169
+  },
+  "own_sd": {
+   "S-NPP": 0.11908691919010078,
+   "NOAA-20": 0.1335545120024869,
+   "NOAA-21": 0.13170206605827378
+  },
+  "record_vs_snpp_sd": 0.4119471566007876,
+  "record_own_sd": 0.3943586762191042
+ },
+ "rephasing": {
+  "before (Mar 2023 - Feb 2024)": {
+   "months": 6,
+   "NOAA-20 -> S-NPP": 0.1058713974500731,
+   "NOAA-21 -> S-NPP": 0.10199615187899053,
+   "NOAA-21 -> NOAA-20": 0.09910826110565153
+  },
+  "after (May 2024 on)": {
+   "months": 17,
+   "NOAA-20 -> S-NPP": 0.09745330611864726,
+   "NOAA-21 -> S-NPP": 0.0988787571589152,
+   "NOAA-21 -> NOAA-20": 0.10705262388108093
+  }
+ },
+ "outage_days": [
+  {
+   "satellite": "S-NPP",
+   "from": "2023-07-26",
+   "to": "2023-07-27",
+   "lost_by_record": 0.94,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2023-11-02",
+   "to": "2023-11-02",
+   "lost_by_record": 0.66,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-01-31",
+   "to": "2024-01-31",
+   "lost_by_record": 0.7,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-05-30",
+   "to": "2024-06-03",
+   "lost_by_record": 1.0,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-07-10",
+   "to": "2024-07-16",
+   "lost_by_record": 0.98,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-07-24",
+   "to": "2024-07-29",
+   "lost_by_record": 0.95,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-09-26",
+   "to": "2024-09-27",
+   "lost_by_record": 0.88,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2024-11-03",
+   "to": "2024-11-06",
+   "lost_by_record": 0.98,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2025-07-05",
+   "to": "2025-07-07",
+   "lost_by_record": 0.93,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2025-11-12",
+   "to": "2025-11-12",
+   "lost_by_record": 0.88,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-03-10",
+   "to": "2026-03-12",
+   "lost_by_record": 1.0,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-04-28",
+   "to": "2026-04-30",
+   "lost_by_record": 1.0,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-06-01",
+   "to": "2026-06-02",
+   "lost_by_record": 1.0,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-07-10",
+   "to": "2026-07-16",
+   "lost_by_record": 0.95,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-08-03",
+   "to": "2026-08-04",
+   "lost_by_record": 0.88,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-08-18",
+   "to": "2026-08-18",
+   "lost_by_record": 0.52,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": false
+  },
+  {
+   "satellite": "S-NPP",
+   "from": "2026-10-12",
+   "to": "2026-10-13",
+   "lost_by_record": 0.64,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": false
+  },
+  {
+   "satellite": "NOAA-20",
+   "from": "2023-07-19",
+   "to": "2023-07-22",
+   "lost_by_record": 1.0,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "NOAA-20",
+   "from": "2023-09-30",
+   "to": "2023-10-01",
+   "lost_by_record": 0.83,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "NOAA-20",
+   "from": "2024-02-04",
+   "to": "2024-02-05",
+   "lost_by_record": 0.97,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": true
+  },
+  {
+   "satellite": "NOAA-20",
+   "from": "2026-10-12",
+   "to": "2026-10-12",
+   "lost_by_record": 0.57,
+   "noaa21_lost_any_day": false,
+   "detected_here_too": false
+  }
+ ],
+ "noaa21_lost_days": [
+  "2024-02-27",
+  "2024-02-28",
+  "2024-07-20",
+  "2025-09-18"
+ ],
+ "fills": [
+  {
+   "month": "2023-07",
+   "filled_share": 0.065,
+   "world_difference": -0.0008023880212014722,
+   "tile_median_abs_difference": 0.00508049859587234
+  },
+  {
+   "month": "2024-05",
+   "filled_share": 0.064,
+   "world_difference": -3.7482474445349467e-06,
+   "tile_median_abs_difference": 0.0030597422556829512
+  },
+  {
+   "month": "2024-06",
+   "filled_share": 0.074,
+   "world_difference": -0.0002460804497874669,
+   "tile_median_abs_difference": 0.003671719238202864
+  },
+  {
+   "month": "2024-07",
+   "filled_share": 0.439,
+   "world_difference": -0.007857843773486528,
+   "tile_median_abs_difference": 0.025021902462641687
+  },
+  {
+   "month": "2024-09",
+   "filled_share": 0.039,
+   "world_difference": -2.686830670550755e-05,
+   "tile_median_abs_difference": 0.002224870462476103
+  },
+  {
+   "month": "2024-11",
+   "filled_share": 0.152,
+   "world_difference": 0.000290904134368386,
+   "tile_median_abs_difference": 0.006341545847482255
+  },
+  {
+   "month": "2025-07",
+   "filled_share": 0.075,
+   "world_difference": 0.00016929991633873875,
+   "tile_median_abs_difference": 0.003170106486348079
+  },
+  {
+   "month": "2026-03",
+   "filled_share": 0.082,
+   "world_difference": -0.00042757407363258615,
+   "tile_median_abs_difference": 0.0037828077697195095
+  },
+  {
+   "month": "2026-04",
+   "filled_share": 0.08,
+   "world_difference": 0.0007823585841950642,
+   "tile_median_abs_difference": 0.004033141238576343
+  },
+  {
+   "month": "2026-06",
+   "filled_share": 0.051,
+   "world_difference": -0.0002880615053026947,
+   "tile_median_abs_difference": 0.0030993677309421597
+  },
+  {
+   "month": "2026-07",
+   "filled_share": 0.221,
+   "world_difference": -0.00012366811051289783,
+   "tile_median_abs_difference": 0.009777844201393271
+  },
+  {
+   "month": "2026-08",
+   "filled_share": 0.066,
+   "world_difference": -0.000418482916125118,
+   "tile_median_abs_difference": 0.0034439119581200495
+  },
+  {
+   "month": "2026-10",
+   "filled_share": 0.044,
+   "world_difference": -0.002801897492170191,
+   "tile_median_abs_difference": 0.003072832605723219
+  }
+ ],
+ "handover": {
+  "world_difference": -0.0014147671728668154,
+  "tile_median_abs_difference": 0.06816548619366569,
+  "tiles": 74
+ }
+}
