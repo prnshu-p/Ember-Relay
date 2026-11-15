@@ -1,4 +1,3 @@
-# NASA FIRMS API fetch utility with exponential backoff and rate limit handling
 """Download from the FIRMS API into data/global/api_cache/: `world` fetches 2026 for the whole planet (the yearly
 archives end in 2025), `extra` the products used only to test the record (E13-E15).
 Run: FIRMS_MAP_KEY=... python3 pipeline/download_api.py world [reverse] | extra"""
