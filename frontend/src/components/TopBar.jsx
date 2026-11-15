@@ -1,4 +1,3 @@
-// Validated responsive layout, theme switches, and country search
 import Icon from './Icon.jsx'
 
 const LOGO = [
